@@ -4,8 +4,9 @@
 This project aims to create a Spotify-like music streaming service. It will feature a machine learning-powered music recommendation system, playback and streaming capabilities, and real-time suggestions based on user activity. The project will utilize the Free Music Archive dataset, Apache Spark for model training, and Apache Kafka for real-time recommendations. The final product will be a user-friendly web application.
 
 ## Team Members
-Talha Ali (22i-1971)
-Shahzer Nadeem (22i-2043)
+`Talha Ali (22i-1971)`
+
+`Shahzer Nadeem (22i-2043)`
 
 ## Phase 1: ETL Pipeline
 ### Dataset
@@ -17,7 +18,7 @@ In this project, Mel-Frequency Cepstral Coefficients (MFCC) was used to convert 
 ### Data Storage
 In this project, MongoDB, a NoSQL database, was used to store the transformed audio features. After the feature extraction process using MFCC, the numerical data was loaded into MongoDB. This provided a scalable and efficient solution for handling the large dataset, allowing for easy retrieval of data during the model training phase.
 
-## Phase 2: Music Recommendation Model[^4^][4]
+## Phase 2: Music Recommendation Model
 ### Model Training
 In this project, the music recommendation model was trained using Apache Spark, a powerful tool for handling big data. The algorithm employed was Approximate Nearest Neighbors (ANN), which is effective for recommendation systems. ANN works by finding the 'nearest' items to a given item in a multi-dimensional space, which in this case are the audio features of the tracks. The 'closeness' of items is determined based on their similarity in features. The model was trained on the numerical data obtained from the MFCC feature extraction, which was stored in MongoDB. The trained model can then predict recommendations based on the 'closeness' of tracks in the feature space.
 
