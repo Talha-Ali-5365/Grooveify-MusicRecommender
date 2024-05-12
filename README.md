@@ -9,6 +9,17 @@ This project aims to create a Spotify-like music streaming service. It will feat
 
 `Shahzer Nadeem (22i-2043)`
 
+## Dependencies
+
+- **pandas**: For data manipulation and analysis.
+- **streamlit**: To create the web application.
+- **librosa**: For music and audio analysis.
+- **KafkaConsumer**: From kafka-python, used for real-time data streaming.
+- **MongoClient**: From PyMongo, used to work with MongoDB.
+- **MultilayerPerceptronClassifier**: From PySpark MLlib, used for model training.
+- **SparkSession**: From PySpark SQL, used for creating a session to use Spark.
+
+
 ## Phase 1: ETL Pipeline
 ### Dataset
 The `fma_large.zip` dataset is a comprehensive collection of 106,574 tracks, each lasting 30 seconds, spanning 161 genres. The dataset, when compressed, totals 93 GiB in size. It's ideal for music information retrieval and recommendation systems.
