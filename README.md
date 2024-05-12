@@ -42,4 +42,5 @@ The project successfully developed a music streaming service with a personalized
 https://docs.streamlit.io/develop/api-reference
 https://spark.apache.org/docs/latest/api/python/index.html
 https://scikit-learn.org/stable/modules/neighbors.html#:~:text=The%20label%20assigned%20to%20a,value%20specified%20by%20the%20user.
+
 Chat-gpt is also used to some extent, for help.
