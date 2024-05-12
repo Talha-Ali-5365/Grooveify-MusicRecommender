@@ -1,11 +1,11 @@
-# Create Your Own Spotify Experience[^1^][1]
+# Create Your Own Spotify Experience
 
 ## Project Overview
 This project aims to create a Spotify-like music streaming service. It will feature a machine learning-powered music recommendation system, playback and streaming capabilities, and real-time suggestions based on user activity. The project will utilize the Free Music Archive dataset, Apache Spark for model training, and Apache Kafka for real-time recommendations. The final product will be a user-friendly web application.
 
 ## Team Members
-Talha Ali (22i-1971)
-Shahzer Nadeem (22i-2043)
+###Talha Ali (22i-1971)
+###Shahzer Nadeem (22i-2043)
 
 ## Phase 1: ETL Pipeline
 ### Dataset
