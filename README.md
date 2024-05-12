@@ -19,6 +19,14 @@ This project aims to create a Spotify-like music streaming service. It will feat
 - **MultilayerPerceptronClassifier**: From PySpark MLlib, used for model training.
 - **SparkSession**: From PySpark SQL, used for creating a session to use Spark.
 
+## Usage
+
+This project consists of two main Python files: `producer.py` and `project.py`.
+
+1. **Running the Scripts**: To start the application, you need to run both `producer.py` and `project.py` at the same time. This can be done by opening two separate command line interfaces (CLI), navigating to the project directory in each, and running each script with a Python command.
+
+2. **Accessing the Web Application**: Once both scripts are running, you can open your web browser and navigate to the Streamlit app to start interacting with the music streaming service. The Streamlit app will provide a user-friendly interface where you can listen to songs and receive personalized song recommendations based on your activity.
+
 
 ## Phase 1: ETL Pipeline
 ### Dataset
